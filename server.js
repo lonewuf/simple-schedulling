@@ -18,7 +18,7 @@ mongoose
 		useUnifiedTopology: true,
 		useFindAndModify: true,
 	})
-	.then(() => console.log('Connected to the database'))
+	.then(() => console.log('Connected to the databasee'))
 	.catch((err) => console.log(`Error when connecting to database: ${err}`));
 
 require('./service/passport');
