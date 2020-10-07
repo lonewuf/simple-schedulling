@@ -41,5 +41,5 @@ app.use('/schedule', scheduleRoutes);
 app.use('/user', userRoutes);
 
 const port = process.env.PORT || 5000;
-const host = process.env.HOST || '0.0.0.0';
-app.listen(port, host, () => console.log(`Listening on port ${port}`));
+// const host = process.env.HOST || '0.0.0.0';
+app.listen(port, () => console.log(`Listening on port ${port}`));
